@@ -1,0 +1,6 @@
+[submodule "BD-License-Plate-Detector"]
+	path = BD-License-Plate-Detector
+	url = https://github.com/rahhhmann/BD-License-Plate-Detector.git
+[submodule "Fabric-Defect-Detector"]
+	path = Fabric-Defect-Detector
+	url = https://github.com/rahhhmann/Fabric-Defect-Detector.git
