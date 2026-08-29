@@ -4,3 +4,6 @@
 [submodule "Fabric-Defect-Detector"]
 	path = Fabric-Defect-Detector
 	url = https://github.com/rahhhmann/Fabric-Defect-Detector.git
+[submodule "Explainable-Dengue-Forecasting-BD"]
+	path = Explainable-Dengue-Forecasting-BD
+	url = https://github.com/rahhhmann/Explainable-Dengue-Forecasting-BD.git
