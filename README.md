@@ -16,10 +16,11 @@ A collection of end-to-end machine learning and computer vision systems — from
 ## Table of Contents
 
 - [Projects](#projects)
+ 
   - [Explainable Dengue Forecasting BD](#3-explainable-dengue-forecasting-bd)
   - [BD License Plate Detector](#1-bd-license-plate-detector)
   - [Fabric Defect Detector](#2-fabric-defect-detector)
-  - 
+   
 - [Cloning This Repo](#cloning-this-repo)
 - [Author](#author)
 
