@@ -1,4 +1,4 @@
-# Computer Vision Projects
+# ML & Vision Projects
 
 <div align="center">
 
@@ -7,7 +7,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Apps-red?style=for-the-badge&logo=streamlit)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker)
 
-A collection of end-to-end computer vision systems — from dataset curation through training to deployed applications. Each project below lives in this repo as a **git submodule** with its own full history, README, and codebase.
+A collection of end-to-end machine learning and computer vision systems — from dataset curation through training to deployed applications. Each project below lives in this repo as a **git submodule** with its own full history, README, and codebase.
 
 </div>
 
@@ -18,6 +18,7 @@ A collection of end-to-end computer vision systems — from dataset curation thr
 - [Projects](#projects)
   - [BD License Plate Detector](#1-bd-license-plate-detector)
   - [Fabric Defect Detector](#2-fabric-defect-detector)
+  - [Explainable Dengue Forecasting BD](#3-explainable-dengue-forecasting-bd)
 - [Cloning This Repo](#cloning-this-repo)
 - [Author](#author)
 
@@ -56,12 +57,27 @@ An automated fabric defect detection system for Bangladesh's RMG (garment) indus
 
 ---
 
+### 3. [Explainable Dengue Forecasting BD](https://github.com/rahhhmann/Explainable-Dengue-Forecasting-BD)
+
+A leakage-free spatio-temporal machine learning pipeline forecasting dengue outbreaks across Bangladesh's eight administrative divisions, built as an undergraduate thesis project.
+
+**Highlights:**
+- LightGBM regression model achieving **R² = 0.900** on held-out data
+- 11,088 observations combining DGHS (Directorate General of Health Services) surveillance data with ERA5 climate reanalysis data
+- SHAP-based explainability layer to interpret feature contributions behind outbreak predictions
+- Careful leakage-free spatio-temporal train/test splitting methodology
+- Recommended for IEEE conference submission (ICCIT / ECCE)
+
+**Stack:** LightGBM, SHAP, Python, spatio-temporal ML pipeline
+
+---
+
 ## Cloning This Repo
 
 Since the projects above are submodules, clone with `--recurse-submodules` to pull their contents too:
 
 ```bash
-git clone --recurse-submodules https://github.com/rahhhmann/Computer-Vision.git
+git clone --recurse-submodules https://github.com/rahhhmann/ML-and-Vision.git
 ```
 
 If you already cloned without that flag:
